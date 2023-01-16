@@ -1,0 +1,4 @@
+COMPONENT_ADD_INCLUDEDIRS = .
+
+COMPONENT_DEPENDS = freertos esp_wifi 
+

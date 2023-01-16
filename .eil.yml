@@ -1,0 +1,23 @@
+---
+components:
+  - name: esp-lib-wifi
+    description: to connect with the wifi
+    group: misc
+    groups: []
+    code_owners: Muhammad Arslan
+    depends:
+      # XXX conditional depends
+      # - driver
+      # - freertos
+      # - esp_idf_lib_helpers
+    thread_safe: no
+    targets:
+      - name: esp32
+      - name: esp32s2
+      - name: esp32c3
+    licenses:
+      - name: BSD-3
+    copyrights:
+      - author:
+          name: Muhammad Arslan
+        year: 2023
